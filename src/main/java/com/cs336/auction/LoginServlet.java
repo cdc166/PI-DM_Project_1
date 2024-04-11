@@ -59,6 +59,7 @@ public class LoginServlet extends HttpServlet {
         } catch (SQLException e) {
             e.printStackTrace();
             // handle any SQL errors and possibly log them
+            //Catch any errors
         } finally {
             // Ensure resources are closed in a finally block
             if (rs != null) {
